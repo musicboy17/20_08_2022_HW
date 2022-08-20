@@ -18,3 +18,12 @@ while (index < length)
     index++;
 }
 Console.WriteLine($"[{String.Join("; ", array)}]");
+
+int summ = 0;
+
+for (int i = 0; i < length; i=i+2)
+{
+    summ = summ + array[i];
+}
+
+Console.WriteLine($"Сумма элементов, стоящих на нечётных позициях: {summ}");
