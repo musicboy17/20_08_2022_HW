@@ -17,4 +17,5 @@ while (index < length)
     index++;
 }
 
+Console.WriteLine($"[{String.Join("; ", array)}]");
 
