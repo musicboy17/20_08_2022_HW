@@ -18,4 +18,13 @@ while (index < length)
 }
 
 Console.WriteLine($"[{String.Join("; ", array)}]");
+ int count = 0;
+ for (int j = 0; j < length; j++)
+ {
+     if ((array[j]) % 2 == 0)
+     count++;
 
+
+}
+
+Console.WriteLine($"Число чётных чисел в массиве: {count}");
